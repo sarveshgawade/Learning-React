@@ -16,16 +16,16 @@ Also file name should be written in capital letters
 
 3) JSX elements to be returned should always have a single parent only
     eg:     
-            ```
-            function ImageCard(){
-                return (
-                        <div>
-                            <img />
-                            <h1>
-                        </div>
-                )
-            } 
-            ```
+```
+function ImageCard(){
+    return (
+            <div>
+                <img/>
+                <h1>
+            </div>
+    )
+} 
+```
 
 4) FRAGMENTS : If we dont want to add the parent wrapper as shown in above eg:<div> then we can add fragment as shoen below. This fragment does not get added to the DOM tree , thus only <img> and <h1> are only added in the DOM tree
 
