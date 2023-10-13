@@ -1,5 +1,6 @@
 import GetCarImage from "./CarImage";
 
+
 function AssignCar(props){
     return (
         <div id="carContainer">
