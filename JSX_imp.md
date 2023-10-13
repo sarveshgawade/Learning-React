@@ -29,3 +29,5 @@ function ImageCard(){
 
 4) FRAGMENTS : If we dont want to add the parent wrapper as shown in above `eg:<div>` then we can add fragment as shoen below. This fragment does not get added to the DOM tree , thus only `<img>` and `<h1>` are only added in the DOM tree
 
+5) If we need to pass data from parent element to the child, then this property is called `PROPS`
+
