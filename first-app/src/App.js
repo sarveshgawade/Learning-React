@@ -4,6 +4,7 @@ import DogCard from './DogCard';
 import {BikeCard} from './DogCard';
 import AssignCar from './Car';
 import Counter from './Counter';
+import Todo from './Todo';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
 
       {/* Using StateHooks */}
       <Counter/>
+
+      <Todo/>
     </div>
   );
 }
