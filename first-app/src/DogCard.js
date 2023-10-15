@@ -4,7 +4,7 @@ function GetImageOfDog(){
 
 function DogCard(){
     return (
-        <div ClassName = "dogContainer">
+        <div className = "dogContainer">
             <h2>Bruno</h2>
             <GetImageOfDog/>
         </div>     
