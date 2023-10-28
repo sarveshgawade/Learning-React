@@ -23,6 +23,11 @@ function Card(){
                         <InputField typeofField='password' place_holder='Confirm Password'/>
                     }
 
+                    {
+                        <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 w-full mb-4">
+                        {isLoggedin ? 'SignUp' : 'SignIn'}
+                      </button>
+                    }
                     <div>
                         {isLoggedin ?`Already have an account ? `:`Don't have an account ?`} <br />
                         <a 
